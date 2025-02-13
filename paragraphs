@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph in HTML</title>
+</head>
+<body>
+  
+    <!--Understanding about Paragraph-->
+    <!-- Paragraph are used to structure and organized the content and make it more readable  -->
+       
+    <p>This is the First Paragraph in HTML</p>   
+    <br>            <!-- <br> tag is used to break the line within the paragraph  without creating the new paragraph-->
+    
+    <p>This is the <br>Second Paragraph in HTML</p>
+    <br>
+    
+    <p>This is the Third Paragraph in HTML</p>
+</body>
+</html>
