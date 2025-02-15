@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Sans-Serif;
+  background-color: #f4f4f9;
+  margin: 20px;
+  
+}
+
+
+.form {
+  border: 1px solid grey;
+  border-radius: 12px;
+  background-color: #ddd;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin-left: 140px;
+}
+
+#reg-form {
+  text-align: center;
+} 
+
+.heading {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: Tomato;
+  background-color: lightgrey;
+  padding: 15px;
+}
