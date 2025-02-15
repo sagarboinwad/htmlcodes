@@ -1,0 +1,10 @@
+body{
+  padding: 25px;
+}
+#heading {
+  color: Tomato;
+  border: 1px solid blue;
+  border-radius: 22px;
+  background-color: black;
+  padding: 11px;
+}
