@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+    <link rel="stylesheet" href="style1.css" >
+    
+</head>
+<body>
+    <h1 class="heading">Understanding About Form in HTML</h1>
+    
+    
+    
+    <br>
+    <form action=" " class="form">
+      <legend id="reg-form">Registration Form</legend><br>
+      
+      <!-- Text Input -->
+      <label for="fname">Full Name:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="enter your full name" size="20" autofocus required >
+      <br><br>
+      
+      
+      <!--Email Input  -->
+      <label for="email" >Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="enter your email" size="25" required >
+      <br><br>
+      
+      <!-- Password Input-->
+      <label for="password" >password:</label><br>
+      <input type="password" id="password" name="password" placeholder="enter password" size="20" required maxlength="8" >
+      <br>
+      <br>
+      
+      <!--Number Input-->
+      <label for="phone" >Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="enter phone number" size="20" required maxlength="10" >
+      <br><br>
+      
+      
+      <!--Date Input  -->
+      <label for="dob" >Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob"  size="15" required >
+      <br><br>
+      
+      <!-- Radio Buttons -->
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+      <br><br>
+      
+      
+      <!--Datalist  -->
+      <label>Hobbies:</label><br>
+      <input list="hob" name="hob" >
+      <datalist id="hob" >
+        <option value="Reading" >
+        <option value="Travelling" >
+        <option value="Sport" >
+        <option value="Other" >  
+      </datalist>
+      <br><br>
+      
+      <!--Dropdown Select-->
+      <label for="country" >Country:</label><br>
+      <select id="country" name="country"  >
+        <option value=" " >select country</option>
+        <option value="india" >INDIA</option>
+        <option value="usa" >USA</option>
+        <option value="canada" >CANADA</option>
+        <option value="uk" >UK</option>
+      </select>
+      <br><br>
+      
+      <!-- Textarea -->
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message..."></textarea>
+      <br><br>
+      
+      <!-- file Upload -->
+      <label for="file" >Upload File:</label><br>
+      <input type="file" id="file" name="file" required multiple>
+      <br><br>
+      
+      
+      <!-- Hidden Input -->
+      <input type="hidden" name="hiddenField" value="12345">
+      <br><br>
+      
+      <!--Button  -->
+      <button type="submit" >SUBMIT</button>
+      <button type="reset" >RESET</button>
+      <br><br>
+      
+      
+    </form>
+    
+    
+    
+    
+</body>
+</html>
