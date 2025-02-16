@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div using css and javascript in HTML</title>
+    <style>
+      .container {
+        text-align: center;
+        color: red;
+        border-left: 5px solid blue;
+        border-right: 5px solid blue;
+        border-radius: 11px;
+        width: 200px;
+        padding: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      
+      .common {
+        color: Orange;
+        text-align: center;
+        border-left: 5px solid blue;
+        border-right: 5px solid blue;
+        border-radius: 11px;
+        width: 100px%;
+        padding: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Understanding About div</h1>
+    <!--<div> is a block-level element that takes up the full width of its parent container.  -->
+    <!--It is used to group multiple elements together for styling, layout, or scripting purposes.  -->
+    <!--div can contain any html element such as - text, image, video, tables, form, etc  -->
+    
+    <br><br><hr>
+    <p>div without using class</p>
+    <div>
+      <h2>Welcome To My Website!</h2>
+      <p>This is the paragraph inside div</p>
+    </div>
+    
+    <!-- you can also use css for styling div by giving class to it-->
+    <br><br><hr>
+    <p>div with  using class</p>
+    <div class="container" >
+      <p>This is the paragraph 2 inside the div</p>
+    </div>
+    
+    <br><br><hr>
+    <p>Nesting div Inside Another div</p>
+    <div class="container" >
+      <div class="common" >Nested div 1</div>
+      <div class="common" >Nested div 2</div>
+    </div>
+
+    <br><br><hr>
+    <p>div using javascript</p>
+    <div id="first" >
+      <h1>Visit To My Website</h1>
+      <button onclick="ClickHere()" >Click Here</button>
+    </div>
+    
+    <script>
+      function ClickHere () {
+        document.getElementById("first").innerHTML = "Welcome To My Website" ;
+        
+      }
+    </script>
+    
+</body>
+</html>
