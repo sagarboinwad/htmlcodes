@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 50px;
+            background-color: #f4f4f4;
+            
+        }
+
+        button{
+            background-color: rgb(229, 165, 165);
+            color: black;
+        
+        }
+        input[type=text], input[type=password]{
+            margin: 8px 0px;
+            display: inline-block;
+            border: 2px solid orange;
+            box-sizing: border-box;
+        }
+        button:hover{
+            opacity: 0.8;
+        }
+        
+        div{
+          padding: 45px; 
+          border: 3px solid lightGray; 
+          text-align: center;
+          margin: 0 10px;
+          padding-inline: 20px;
+          border-radius: 25px;
+          background-color: white;
+          box-shadow: 3px 5px 3px 5px lightgrey;
+        }
+    </style>
+</head>
+<body>
+  
+    <h1 style="text-align: center;">USER REGISTRATION FORM</h1>
+   
+    <form>
+        <div>
+            FIRST NAME: <input type="text" name="FIRST NAME" placeholder="ENTER FIRST NAME" required>
+            <br>
+            <br>
+            LAST NAME: <input type="text" name="LAST NAME" placeholder="ENTER LAST NAME" required>
+            <br>
+            <br>
+            PHONE NO. <input type="text" name="PHONE NO." placeholder="ENTER PHONE NUMBER" required>
+            <br>
+            <br>
+            AGE: <input type="text" name="AGE" placeholder="ENTER AGE" required>
+            <br>
+            <br><br>
+            GENDER:
+            <br>
+            <br>
+            <input type="radio" name="Male"> Male 
+            <input type="radio" name="Female"> Female 
+            <input type="radio" name="Other"> Other 
+            <br>
+            <br>
+            <br>
+            <label>COURSE:</label>
+            <select>
+                <option value="Courses">Course</option>
+                <option value="Python">Python </option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+                <option value="html">html</option>
+
+            </select>
+            <br>
+            <br>
+            <br>
+            <label>EMAIL</label>
+            <input type="email" name="email" placeholder="enter your email" maxlength="25" required>
+            <br> <br><br>
+            PASSWORD <input type="password" name="password" placeholder="ENTER YOUR PASSWORD" maxlength="8" required>
+            <br>
+            <br>
+            <button>submit</button>
+            <br>
+
+            
+
+
+        </div>
+    </form>
+
+</body>
+</html>
