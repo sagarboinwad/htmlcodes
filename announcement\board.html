@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Announcement Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+          background-image: url('https://tse3.mm.bing.net/th?id=OIP.MlzEvPSeVM8RkV8rOE1mBAHaE7&pid=Api&P=0&h=220');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 500px 600px;
+          
+            margin: 50px auto;
+            padding: 20px;
+            
+            border-radius: 11px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .announcement-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .announcement-item {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .announcement-item:last-child {
+            border-bottom: none;
+        }
+        .announcement-date {
+            font-weight: bold;
+            color: lightblue;
+        }
+        .announcement-details {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><u>Announcement Board</u></h1>
+        
+        <ul class="announcement-list">
+            <li class="announcement-item">
+                <p class="announcement-date">January 20, 2025</p>
+                <p class="announcement-details">The annual company meeting will take place on February 10, 2025. All employees are required to attend.</p>
+            </li>
+            <hr>
+            <li class="announcement-item">
+                <p class="announcement-date">January 15, 2025</p>
+                <p class="announcement-details">There will be a team-building workshop on January 25, 2025, at the main office. RSVP by January 22.</p>
+            </li>
+            <hr>
+            <li class="announcement-item">
+                <p class="announcement-date">January 10, 2025</p>
+                <p class="announcement-details">Office will be closed on January 26th for Republic Day celebrations.</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
